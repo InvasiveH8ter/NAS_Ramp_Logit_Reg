@@ -53,14 +53,14 @@ Download Notebooks and store in your project folder.
 
 Download Shapefiles from repository and store in a subfolder called data within folder containing the notebooks you downloaded.
 
-*MN_accesses.shp 
+* MN_accesses.shp (stored within this repository)
 *MN_Lakes.shp (https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip)
 
 ***Alternatively***
 Visit https://apps.nationalmap.gov/downloader/#/ to download a waterbody shapefile for your area of interest
 Note: You will also need a shapefile containing georeferenced points for publis accesses for your region of interest. These can be found online usually by searching for "<state name> public water access shapefile". Be advised using your own data may require modifying filenames and attribute column names to match your data.
 
-##Check Yourself:
+## Check Yourself:
 	
 At this point you should have:
 	
@@ -80,9 +80,9 @@ Run the NAS_data_pull notebook and export the final shapefile to your local dire
 ***Alternatively***
 Visit https://nas.er.usgs.gov/api/v2/species to get your taxa species key information
 
-##Run the model
+## Run the model
 
-*Open the Access_NAS_logit_regression notebook
-*If you renamed the shapefiles or are using your own, modify the path names in the notbook to match.
-*Now run the cells in order to get a regression plot.
-*You can now us the fitted model to predict probability of the presence of your invasive based on the number of public access sites for a waterbody. 
+* Open the Access_NAS_logit_regression notebook
+* If you renamed the shapefiles or are using your own, modify the path names in the notbook to match.
+* Now run the cells in order to get a regression plot.
+* You can now us the fitted model to predict probability of the presence of your invasive based on the number of public access sites for a waterbody. 
