@@ -19,15 +19,14 @@ You will need the following software and packages:
 ## Conda Setup
 
 Open the Anaconda Powershell via your start menu
-
 It is recommended that you set up a conda environment prior to using this package.
 
 % conda create -n <NAME> python=3 
-	
 % conda activate <NAME>
 ---
 
 ## Install required packages
+	
 % conda install -c anaconda python
 % conda install -c anaconda pandas
 % conda install -c anaconda geopandas
