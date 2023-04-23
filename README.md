@@ -45,7 +45,7 @@ Download Notebooks and store in your project folder.
 Download Shapefiles from repository and store in a subfolder called data within folder containing the notebooks you downloaded.
 
 *MN_accesses.shp 
-*MN_Lakes.shp
+*MN_Lakes.shp (https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip)
 
 ***Alternatively***
 Visit https://apps.nationalmap.gov/downloader/#/ to download a waterbody shapefile for your area of interest
