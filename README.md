@@ -13,7 +13,7 @@ You will need the following software and packages:
 * json-e
 * requests
 * functools
----
+
 
   
 ## Conda Setup
@@ -23,7 +23,7 @@ It is recommended that you set up a conda environment prior to using this packag
 
 % conda create -n <NAME> python=3 
 % conda activate <NAME>
----
+
 
 ## Install required packages
 	
@@ -35,7 +35,7 @@ It is recommended that you set up a conda environment prior to using this packag
 % conda install-c requests
 % conda install-c functools
 % pip install notebook
----
+
 
 
 ## Workflow
@@ -52,7 +52,7 @@ Download Shapefiles from repository and store in a subfolder called data within 
 ***Alternatively***
 Visit https://apps.nationalmap.gov/downloader/#/ to download a waterbody shapefile for your area of interest
 Note: You will also need a shapefile containing georeferenced points for publis accesses for your region of interest. These can be found online usually by searching for "<state name> public water access shapefile". Be advised using your own data may require modifying filenames and attribute column names to match your data.
----
+
 
 Open model script notebook from Conda by runnning:
 
@@ -65,13 +65,13 @@ Run the NAS_data_pull notebook and export the final shapefile to your local dire
 ***Alternatively***
 Visit https://nas.er.usgs.gov/api/v2/species to get your taxa species key information
 
----
+
 Check Yourself:
 * At this point you should have:
 	a conda environment with all packages installed
   	2 ipynb notebooks stored in a unique folder
 	3 shapefiles stored in a data subfolder within your unique project directory.
----
+
 
 Run the model
 
