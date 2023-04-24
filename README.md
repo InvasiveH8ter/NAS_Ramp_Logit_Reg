@@ -48,8 +48,9 @@ It is recommended that you set up a conda environment prior to using this packag
 ## Workflow
 Download Notebooks and store in your project folder.
 
-*NAS_data_pull.ipynb
-*Access_NAS_logit_regression.ipynb
+* NAS_data_pull.ipynb
+
+* Access_NAS_logit_regression.ipynb
 
 Download Shapefiles from repository and store in a subfolder called data within folder containing the notebooks you downloaded.
 
@@ -58,7 +59,7 @@ Download Shapefiles from repository and store in a subfolder called data within 
 
 ***Alternatively***
 Visit https://apps.nationalmap.gov/downloader/#/ to download a waterbody shapefile for your area of interest
-Note: You will also need a shapefile containing georeferenced points for publis accesses for your region of interest. These can be found online usually by searching for "<state name> public water access shapefile". Be advised using your own data may require modifying filenames and attribute column names to match your data.
+Note: You will also need a shapefile containing georeferenced points for public accesses for your region of interest. These can be found online usually by searching for "state name public water access shapefile". Be advised using your own data may require modifying filenames and attribute column names to match your data.
 
 ## Check Yourself:
 	
