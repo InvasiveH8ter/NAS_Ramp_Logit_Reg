@@ -36,7 +36,11 @@ pip install functools
 
 pip install matplotlib
 
+pip install statsmodels
+
 pip install seaborn
+
+pip install scikit-learn
 	
 pip install notebook
 
