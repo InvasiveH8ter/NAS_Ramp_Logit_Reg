@@ -28,19 +28,20 @@ pip install python pandas geopandas numpy json-e requests functools matplotlib s
 
 
 ## Workflow
-Create a project folder.
+Create a project folder within your home directory.
 
 Download repository as zipfile and extract to your project folder
 
 ## Check Yourself:
 	
 At this point you should have:
-	
 
 * 2 ipynb notebook stored in a unique folder
 * The MN_accesses.shp stored in a data subfolder 
 
 ## Open Jupyter notebook from OSGeo4W by runnning:
+
+Navigate to the directory where you stored your downloaded files
 
 python -m notebook
 
