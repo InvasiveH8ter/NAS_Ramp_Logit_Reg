@@ -5,7 +5,7 @@ This script is designed to test the correlation between the occurence of a non-i
 ## Dependencies
 You will need the following software and packages:
 
-* anaconda (https://conda.io/projects/conda/en/stable/user-guide/install/download.html)
+* OSGeo4W
 * python 3
 * pandas
 * geopandas
@@ -16,69 +16,52 @@ You will need the following software and packages:
 * matplotlib
 * seaborn
 
-## Conda Setup
-
-Open the Anaconda Powershell via your start menu.
-
-It is recommended that you set up a conda environment prior to using this package.
-
-% conda create -n NAME python=3 
-	
-% conda activate NAME
-
-
 ## Install required packages
-	
-% conda install -c anaconda python
-	
-% conda install -c anaconda pandas
-	
-% conda install -c anaconda geopandas
-	
-% conda install -c anaconda numpy
-	
-% conda install-c conda-forge json-e
-	
-% conda install-c requests
-	
-% conda install-c functools
 
-% conda install-c matplotlib
-
-% conda install seaborn
+Open OSGeo4W from start menu
 	
-% pip install notebook
+pip install python
+	
+pip install pandas
+	
+pip install geopandas
+	
+pip install numpy
+	
+pip install json-e
+	
+pip install requests
+	
+pip install functools
 
-***Alternatively***
-Use pip to install the packages listed above into OSGeo4W Shell.
+pip install matplotlib
+
+pip install seaborn
+	
+pip install notebook
+
 
 ## Workflow
-Create a project folder with a subfolder called data.
+Create a project folder.
 
 Download NAS_Access_Reg.zip and extract to your project folder
-
-Download required waterbody shapefile and store in the subfolder called data within folder containing the notebooks you downloaded.
-
-* MN_Lakes.shp (https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip)
-## Note: There is a link provided within the script for downloading the waterbody shapefiles, but you will need to extract them into your project data sub directory.
 
 ## Check Yourself:
 	
 At this point you should have:
 	
-* a conda environment with all packages installed
+
 * 2 ipynb notebook stored in a unique folder
-* 2 shapefiles stored in a data subfolder within your unique project directory.
+* The MN_accesses.shp stored in a data subfolder 
 
+## Open Jupyter notebook from OSGeo4W by runnning:
 
-## Open Jupyter notebook from Conda by runnning:
-
-% python -m notebook
+python -m notebook
 
 ## Run the model
 
 * Open the Access_NAS_logit_regression notebook.
-* If you renamed the shapefiles or are using your own, modify the path names in the notebook to match.
+* Note: If you renamed the shapefiles or are using your own, modify the path names in the notebook to match.
 * Now run the cells in order to get a regression plot.
 * You can now us the fitted model to predict probability of the presence of your invasive based on the number of public access sites for a waterbody. 
 
