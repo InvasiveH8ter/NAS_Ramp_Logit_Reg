@@ -30,7 +30,7 @@ pip install python pandas geopandas numpy json-e requests functools matplotlib s
 ## Workflow
 Create a project folder.
 
-Download NAS_Access_Reg.zip and extract to your project folder
+Download repository as zipfile and extract to your project folder
 
 ## Check Yourself:
 	
