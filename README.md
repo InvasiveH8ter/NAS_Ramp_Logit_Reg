@@ -60,6 +60,7 @@ Download NAS_Access_Reg.zip and extract to your project folder
 Download required waterbody shapefile and store in the subfolder called data within folder containing the notebooks you downloaded.
 
 * MN_Lakes.shp (https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip)
+## Note: There is a link provided within the script for downloading the waterbody shapefiles, but you will need to extract them into your project data sub directory.
 
 ## Check Yourself:
 	
