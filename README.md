@@ -55,9 +55,9 @@ Use pip to install the packages listed above into OSGeo4W Shell.
 ## Workflow
 Create a project folder with a subfolder called data.
 
-Download Zip file with Jupyter Notebooks and MN_access.shp
+Download NAS_Access_Reg.zip and extract to your project folder
 
-Download required waterbody shapefile and store in a subfolder called data within folder containing the notebooks you downloaded.
+Download required waterbody shapefile and store in the subfolder called data within folder containing the notebooks you downloaded.
 
 * MN_Lakes.shp (https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip)
 
