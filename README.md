@@ -47,13 +47,15 @@ It is recommended that you set up a conda environment prior to using this packag
 % pip install notebook
 
 ## Workflow
+Create a project folder with a subfolder called data
+
 Download Notebooks and store in your project folder.
 
 * NAS_data_pull.ipynb
 
 * Access_NAS_logit_regression.ipynb
 
-Download MN_accesses.zip from this repository and store in a subfolder called data within folder containing the notebooks you downloaded.
+Download required shapefiles and store in a subfolder called data within folder containing the notebooks you downloaded.
 
 * MN_accesses.shp (stored within this repository)
 
@@ -72,7 +74,7 @@ At this point you should have:
 * 2 shapefiles stored in a data subfolder within your unique project directory.
 
 
-##Open model script notebook from Conda by runnning:
+## Open model script notebook from Conda by runnning:
 
 % python -m notebook
 
