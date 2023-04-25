@@ -80,7 +80,7 @@ At this point you should have:
 
 Navigate to the directory with the model script and open the NAS_data_pull notebook.
 
-Run the NAS_data_pull notebook and export the final shapefile to your local directory.
+Run the NAS_data_pull notebook and export the final csv to your project data folder.
 
 ***Alternatively***
 Visit https://nas.er.usgs.gov/api/v2/species to get your taxa species key information
