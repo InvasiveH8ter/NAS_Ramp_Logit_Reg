@@ -55,13 +55,9 @@ Use pip to install the packages listed above into OSGeo4W Shell.
 ## Workflow
 Create a project folder with a subfolder called data.
 
-Download Notebook and store in your project folder.
+Download Zip file with Jupyter Notebooks and MN_access.shp
 
-* Access_NAS_logit_regression.ipynb
-
-Download required shapefiles and store in a subfolder called data within folder containing the notebooks you downloaded.
-
-* MN_accesses.shp (stored within this repository)
+Download required waterbody shapefile and store in a subfolder called data within folder containing the notebooks you downloaded.
 
 * MN_Lakes.shp (https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip)
 
@@ -70,7 +66,7 @@ Download required shapefiles and store in a subfolder called data within folder 
 At this point you should have:
 	
 * a conda environment with all packages installed
-* a ipynb notebook stored in a unique folder
+* 2 ipynb notebook stored in a unique folder
 * 2 shapefiles stored in a data subfolder within your unique project directory.
 
 
@@ -81,7 +77,7 @@ At this point you should have:
 ## Run the model
 
 * Open the Access_NAS_logit_regression notebook.
-* If you renamed the shapefiles or are using your own, modify the path names in the notbook to match.
+* If you renamed the shapefiles or are using your own, modify the path names in the notebook to match.
 * Now run the cells in order to get a regression plot.
 * You can now us the fitted model to predict probability of the presence of your invasive based on the number of public access sites for a waterbody. 
 
