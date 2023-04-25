@@ -19,30 +19,12 @@ You will need the following software and packages:
 ## Install required packages
 
 Open OSGeo4W from start menu
-	
-pip install python
-	
-pip install pandas
-	
-pip install geopandas
-	
-pip install numpy
-	
-pip install json-e
-	
-pip install requests
-	
-pip install functools
 
-pip install matplotlib
+Navigate to your user directory 
 
-pip install statsmodels
-
-pip install seaborn
-
-pip install scikit-learn
+Run
 	
-pip install notebook
+pip install python pandas geopandas numpy json-e requests functools matplotlib statsmodels seaborn scikit-learn notebook
 
 
 ## Workflow
