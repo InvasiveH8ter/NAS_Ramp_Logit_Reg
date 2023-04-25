@@ -49,7 +49,7 @@ It is recommended that you set up a conda environment prior to using this packag
 	
 % pip install notebook
 
-*** Alternatively ***
+***Alternatively***
 Use pip to install the packages listed above into OSGeo4W Shell
 
 ## Workflow
