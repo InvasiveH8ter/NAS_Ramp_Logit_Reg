@@ -13,6 +13,7 @@ You will need the following software and packages:
 * json-e
 * requests
 * functools
+* matplotlib
 * seaborn
 
 ## Conda Setup
@@ -41,6 +42,8 @@ It is recommended that you set up a conda environment prior to using this packag
 % conda install-c requests
 	
 % conda install-c functools
+
+% conda install-c matplotlib
 
 % conda install seaborn
 	
