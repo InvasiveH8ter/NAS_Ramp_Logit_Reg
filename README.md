@@ -41,9 +41,9 @@ At this point you should have:
 
 ## Open Jupyter notebook from OSGeo4W by runnning:
 
-Navigate to the directory where you stored your downloaded files
-
 python -m notebook
+
+Navigate to the directory where you stored your downloaded files
 
 ## Run the model
 
