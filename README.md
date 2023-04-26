@@ -32,6 +32,10 @@ Create a project folder within your home directory.
 
 Download repository as zipfile and extract to your project folder
 
+Download MN_lakes_shapefiles and Extract into Data Subdirectory
+
+https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip
+
 ## Check Yourself:
 	
 At this point you should have:
