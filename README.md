@@ -41,7 +41,8 @@ https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_
 At this point you should have:
 
 * 2 ipynb notebook stored in a unique folder
-* The MN_accesses.shp stored in a data subfolder 
+* The MN_accesses.shp stored in the data subfolder
+* The NHDWaterbody.shp stored in the data subfolder
 
 ## Open Jupyter notebook from OSGeo4W by runnning:
 
