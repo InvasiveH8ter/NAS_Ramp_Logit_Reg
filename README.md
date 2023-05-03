@@ -1,6 +1,6 @@
 ## This document is for NAS_Ramp_Logit_Reg
 
-This script is designed to test the correlation between the occurence of a non-indigenous aquatic species and the number of public accesses on a waterbody. This workflow and associated scripts have been designed to be flexible such that the user can easilly replace the example data provided with their own waterbody and public access shapefiles. The example data here can be used to test the correlation between zebra mussel occurence and the number of waterbody access site per lake in MN.
+This script is designed to test the correlation between the occurence of a non-indigenous aquatic species and the number of public accesses on a waterbody. This workflow and associated scripts have been designed to be flexible such that the user can easilly replace the example data provided with their own waterbody and public access shapefiles. The example data here can be used to test the correlation between zebra mussel occurence and the number of waterbody access sites per lake in MN (for lakes greater than 0.50 km squared and with at least one public access).
 
 ## Dependencies
 You will need the following software and packages:
@@ -32,7 +32,7 @@ Create a project folder within your home directory.
 
 Download repository as zipfile and extract to your project folder
 
-Download MN_lakes_shapefiles and Extract into Data Subdirectory
+Download MN_lakes_shapefiles and Extract into Data Subdirectory (Leave this in the shape folder it comes packed in)
 
 https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_H_Minnesota_State_Shape.zip
 
@@ -42,7 +42,7 @@ At this point you should have:
 
 * 2 ipynb notebook stored in a unique folder
 * The MN_accesses.shp stored in the data subfolder
-* The NHDWaterbody.shp stored in the data subfolder
+* The NHDWaterbody.shp stored within a folder named shape within the data subfolder
 
 ## Open Jupyter notebook from OSGeo4W by runnning:
 
@@ -55,7 +55,7 @@ Navigate to the directory where you stored your downloaded files
 * Open the Access_NAS_logit_regression notebook.
 * Note: If you renamed the shapefiles or are using your own, modify the path names in the notebook to match.
 * Now run the cells in order to get a regression plot.
-* You can now us the fitted model to predict probability of the presence of your invasive based on the number of public access sites for a waterbody. 
+* You can now use the fitted model to predict probability of the presence of your invasive based on the number of public access sites for a waterbody. 
 
 ***Alternatively***
 To download a waterbody shapefile for your area of interest, visit https://apps.nationalmap.gov/downloader/#/. 
