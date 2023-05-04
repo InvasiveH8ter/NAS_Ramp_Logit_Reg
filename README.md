@@ -20,9 +20,11 @@ You will need the following software and packages:
 
 Open OSGeo4W from start menu
 
-Navigate to your user directory 
+Navigate to your user directory by running:
 
-Run
+cd C:\Users\YourInfo
+
+Install required packages by running:
 	
 pip install python pandas geopandas numpy json-e requests functools matplotlib statsmodels seaborn scikit-learn notebook
 
@@ -40,7 +42,7 @@ https://prd-tnm.s3.amazonaws.com/StagedProducts/Hydrography/NHD/State/Shape/NHD_
 	
 At this point you should have:
 
-* 2 ipynb notebook stored in a unique folder
+* 2 ipynb notebook stored in your project folder
 * The MN_accesses.shp stored in the data subfolder
 * The NHDWaterbody.shp stored within a folder named shape within the data subfolder
 
@@ -62,6 +64,6 @@ To download a waterbody shapefile for your area of interest, visit https://apps.
 
 You will also need a shapefile containing georeferenced points for public accesses for your region of interest. These can be found online usually by searching for "state name public water access shapefile". Be advised using your own data may require modifying filenames and attribute column names to match your data.
 
-You can also change the species key information to investigate the correlation between public accesses and your most hated non-indigenous aquatic species.
+You can also change the species key information to investigate the correlation between public accesses and your most hated non-indigenous aquatic species by getting the species ID at:
 
-Visit https://nas.er.usgs.gov/api/v2/species to get your taxa species key information.
+https://nas.er.usgs.gov/api/v2/species to get your taxa species key information.
